@@ -5,7 +5,7 @@ This project is an AI-powered code reviewer built with Streamlit for an intuitiv
 ## Features
 
 - User-friendly web interface for submitting code
-- AI-driven analysis powered by Google's Gemini Pro model
+- AI-driven analysis powered by Google's Gemini 2.0 flash model
 - Detailed feedback with explanations and suggested fixes
 - Easy setup and local deployment
 
@@ -13,7 +13,7 @@ This project is an AI-powered code reviewer built with Streamlit for an intuitiv
 
 Before setting up the project, ensure you have the following:
 
-- **Python 3.8 or higher** installed on your system
+- **Python 3.9or higher** installed on your system
 - A **Google AI Studio account** to obtain an API key
 
 ## Setup Instructions
@@ -21,7 +21,7 @@ Before setting up the project, ensure you have the following:
 Follow these steps to set up the project locally:
 
 1. **Obtain an API Key**  
-   - Sign up at [Google AI Studio](https://makersuite.google.com/) and create a project.  
+   - Sign up at [Google AI Studio](https://aistudio.google.com/apike/) and create a key 
    - Generate an API key for the Gemini API.
 
 2. **Set the Environment Variable**  
@@ -105,9 +105,6 @@ Contributions are welcome! Feel free to submit pull requests with bug fixes, new
 
 ---
 
-**Streamlit Badge**  
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://<your-app-url>)  
-*Note: Replace `<your-app-url>` with the deployed app URL if hosted online.*
 
 **License**  
 This project is licensed under the MIT License.
